@@ -87,7 +87,6 @@ header{
 .bottom{
     display: flex;
     justify-content: space-evenly;
-    height: 20vh;
     width: 100vw;
     padding-top: 0;
 }
