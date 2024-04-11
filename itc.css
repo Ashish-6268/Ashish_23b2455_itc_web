@@ -1,0 +1,84 @@
+a:hover{
+    color: tomato;
+}
+body{
+    background-color: black;
+}
+main{
+    background-image: url(background5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    /*background-color: rgb(10, 10, 30);*/
+    color: white;
+}
+header{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    position: sticky;
+    top: 0; bottom: 0;
+}
+.toplist{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.top_ul{
+    text-decoration: none;
+}
+.top_ul_list {
+    display: none;
+    list-style-type: none;
+    color: white;
+}
+.top_ul:hover .top_ul_list{
+    display: block;
+}
+.top_ul_list_el{/*
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;*/
+    color: white;
+    text-decoration: none;
+}
+.welcome{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about_itc{
+    display: flex;
+}
+#box_itc_logo{
+    padding: 10px;
+}
+#box_itc_content{
+    padding: 50px;
+}
+.how_to_join{
+    display: flex;
+}
+#join_image{
+    padding: 10px;
+}
+#join_content{
+    padding: 50px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyright{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.contact{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.bottom_icons{
+    color: tomato;
+    padding-right: 15px;
+}
